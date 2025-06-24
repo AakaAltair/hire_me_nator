@@ -1,0 +1,211 @@
+
+
+## ✅ REFINED AGENT LIST (Based on Your Vision)
+
+### 🧠 Root Agent (Coordinator)
+
+* **Role**: Central planner and context manager
+* **Function**: Interprets user intent, delegates tasks to agents, manages memory across sessions
+* **Recommendation**: Give this agent light planning skills (e.g., ReAct + tool schema) to enable flexible decision-making
+
+---
+
+### 📄 1. CV Builder & Analyzer Agent
+
+* **Functions**:
+
+  * Parse and summarize uploaded CV
+  * Build CV via conversational Q\&A
+  * Check for grammar, formatting, clarity
+* **Suggestion**:
+
+  * Integrate grammar/style checker (e.g., Grammarly API or LanguageTool)
+  * Use structured templates for building CVs (ATS-ready, creative, executive, etc.)
+
+---
+
+### 🧭 2. CV Domain Analyzer Agent
+
+* **Functions**:
+
+  * Classify user into a career domain
+  * Compare CV to industry standard in the domain
+  * Generate skill/project/experience gap report
+* **Suggestion**:
+
+  * Add role-specific benchmarks (e.g., compare against real job descriptions or resumes of top professionals)
+
+---
+
+### 🔍 3. Job Search Agent
+
+* **Functions**:
+
+  * Search for jobs via API or scraping
+  * Filter based on user profile/preferences
+* **Suggestion**:
+
+  * Add filters for remote/on-site, salary range, and visa support
+  * Save and track applied jobs
+
+---
+
+### 🧾 4. Job Analysis Agent
+
+* **Functions**:
+
+  * Analyze job description and user CV
+  * Eligibility check, red flags, and prep plan
+* **Suggestion**:
+
+  * Add a readiness score (out of 100) with traffic light visual: ✅ good fit, ⚠️ needs work, ❌ not eligible
+
+---
+
+### 🏢 5. Company Deep-Dive Agent
+
+* **Functions**:
+
+  * Research on company and competitors
+  * Extract culture, financials, innovations, DEI, CSR, etc.
+* **Suggestion**:
+
+  * Generate insights for “Why do you want to join us?” interview questions
+  * Use Crunchbase + Glassdoor + LinkedIn for triangulated views
+
+---
+
+### 🎯 6. Resume Tailoring Agent
+
+* **Functions**:
+
+  * Personalize CV for a job + company
+  * Integrate keywords from JD and company vision
+* **Suggestion**:
+
+  * Let users choose focus style: skills-heavy, leadership-focused, or creative
+
+---
+
+### ✅ 7. ATS Optimization Agent
+
+* **Functions**:
+
+  * Run ATS simulation (keyword matching, readability, structure)
+  * Fix resume for a 90–95% match score
+* **Suggestion**:
+
+  * Display missing keywords, fix format issues (dates, sections, headers)
+
+---
+
+### 🎤 8. Interview Prep Agent
+
+* **Functions**:
+
+  * Generate technical, HR, managerial questions
+  * Simulate mock interviews (chat or voice)
+* **Suggestion**:
+
+  * Add behavioral STAR method coach
+  * Use webcam and audio for real-time feedback (tone, confidence, pause)
+
+---
+
+### 📩 9. Offer Letter Analysis Agent
+
+* **Functions**:
+
+  * Parse and analyze offer letters (salary, clauses, equity)
+  * Benchmark offer against industry
+  * Generate negotiation script
+* **Suggestion**:
+
+  * Add a red flag detector (e.g., non-compete clause, low base, unpaid overtime)
+  * Recommend counter-offer phrases
+
+---
+
+### 🔗 10. Networking Agent
+
+* **Functions**:
+
+  * Help find people to connect with (LinkedIn search + templates)
+  * Craft cold messages, follow-ups
+* **Suggestion**:
+
+  * Add daily/weekly “outreach goals” to build professional network habit
+  * Suggest events, conferences, alumni groups
+
+---
+
+### 📢 11. News & Opportunities Agent
+
+* **Functions**:
+
+  * Track openings (jobs, internships, fellowships)
+  * Suggest career-building activities
+* **Suggestion**:
+
+  * Use RSS or APIs from government sites, job portals, edtech platforms
+  * Filter by region, domain, eligibility
+
+---
+
+## 🧠 Career Advisor Agent
+
+### 🎯 Purpose:
+
+To provide **strategic career planning**, **growth roadmaps**, and **transition guidance**.
+
+### 🧩 Inputs:
+
+* User's career goals (if any)
+* Current CV/experience
+* Industry preferences or interests
+
+### 🔧 Tools / Capabilities:
+
+* Domain trends analyzer (future demand)
+* Role mapping (junior → senior → lead → exec)
+* Salary trajectory visualizer
+* Timeline planner with milestones
+
+### 📤 Outputs:
+
+* 6-month, 1-year, and 3-year career plan
+* Lateral move or pivot options (e.g., dev → PM, design → UX research)
+* Strategic advice: upskilling, certifications, internships, side-projects
+
+---
+
+## 🎙 Portfolio Pitch Agent *(Persona + Portfolio Combined)*
+
+### 🎯 Purpose:
+
+Help users define and present their **professional identity** and showcase themselves effectively.
+
+### 🧩 Inputs:
+
+* CV + Projects
+* Career goals / domain
+* Optional: GitHub, Behance, LinkedIn URLs
+
+### 🔧 Tools / Capabilities:
+
+* Elevator pitch generator (text, voice, video-ready)
+* GitHub/portfolio summary generator
+* Personal branding checker (alignment between CV, LinkedIn, and goals)
+* Email + outreach generator (cold messages, thank-you emails, intro emails)
+* Portfolio storytelling assistant (explains project impact, not just what was built)
+
+### 📤 Outputs:
+
+* One-liner, bio, and full elevator pitch
+* Optimized GitHub/Behance profile summaries
+* Email templates for recruiters/mentors
+* Personal brand checklist (LinkedIn, resume, GitHub consistency)
+
+---
+
+

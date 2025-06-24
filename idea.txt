@@ -1,0 +1,27 @@
+Hire-me-nator
+
+agentic ai for job prep
+upload cv (optional)
+chat with bot and make general editable cv in gsheet (both bot and user can do the edits and bot is aware of the edits made manually in the cv as well)
+suggest best domain as per cv 
+suggest/ recommend addtional skills to complement or enforce skills mentioned in the cv as well as acquire related trending skills in the domain (optional)
+search for jobs based on the cv, skill, domain
+braintorm additional skills, projects, experience required as per the job description
+research on the target/ selected job providing company and their competitors ( their history, present, future, about their competitors, adv and dis adv of the compititors and the company,  the issue they face how my skills can help them based on the jd and the position, how you can contribute and so on)
+get the company job description and personalise the resume, also provide advice about addtional skills the user should have (optional)
+prep for interview with mock questions (techinical, hr) and so on
+analyse the offer letter and do negotiation for better package
+
+provide
+description for the agent 
+Instruction for the agents with enought details and few shot examples to guide the agent. cover the following sections
+Agent Role
+Thought Process (Includes escalation to root agent if needed)
+Multi-Agent Request / Coordination
+User Interactions
+Inputs
+Process
+Tools & Agents (if any agent is using google search it should provide the rich meta data (sources, links, data posted/ published and so on))
+Output (User-Friendly Format with meta data about the sources (dates, sources, links and so on))
+output should be in markdown format, well structured, sectioned, with metadata (sources, dates and links) 
+refer and suitably use the output format as needed: response (coversation with the user), analytics (suggstions, opinions, feedbacks, analysis, future scope and so on, on the data), data (actual data ouput for the user example: resume, job lists, resume, news, networks and so on), comments
